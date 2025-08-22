@@ -1,6 +1,7 @@
 #include "ExpressionModule.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "display_pins.h"
 
 extern "C" void app_main(void) {
     ExpressionModule module(4, 5);
